@@ -1,6 +1,6 @@
 {
   "name": "nof-number",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Numeric object factory",
   "main": "index.js",
   "repository": {
@@ -23,6 +23,6 @@
     ]
   },
   "dependencies": {
-    "nof": "0.0.1"
+    "nof": "0.0.2"
   }
 }
