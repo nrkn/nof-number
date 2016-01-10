@@ -6,7 +6,10 @@ const NumericFactory = opts => {
   const isInteger = !!opts.isInteger
   
   const propertyTransform = ( name, value ) => {
-    const num = Number( value )
+    let num = Number( value )
+    
+    if( Number.isNaN( num ) )
+      num = 0
     
     return isInteger ? Math.trunc( num ) : num
   }
